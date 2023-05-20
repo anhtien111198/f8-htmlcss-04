@@ -1116,7 +1116,7 @@ select {
     line-height: 2;
     color: #656689;
 }
-.footer__link:hover {
+.footer__list:hover {
     text-decoration: underline;
 }
 .footer__copyright {
