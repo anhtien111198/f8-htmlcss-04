@@ -732,7 +732,10 @@
                 <div class="container">
                     <div class="review__inner">
                         <!--Review previous  -->
-                        <button class="review__control">
+                        <button
+                            class="review__control"
+                            onclick="plusSlides(-1)"
+                        >
                             <svg
                                 width="20"
                                 height="21"
@@ -876,6 +879,7 @@
                             <div class="review__dots">
                                 <div
                                     class="review__dot review__dot--active"
+                                    onclick="currentSlide(1)"
                                 ></div>
                                 <div class="review__dot"></div>
                                 <div class="review__dot"></div>
@@ -883,7 +887,7 @@
                             </div>
                         </div>
                         <!-- Review next -->
-                        <button class="review__control">
+                        <button class="review__control" onclick="plusSlides(1)">
                             <svg
                                 width="20"
                                 height="21"
